@@ -1,0 +1,16 @@
+﻿  Generate moc_predefs.h
+  chooselevelscene.cpp
+  dataconfig.cpp
+  main.cpp
+  mainscence.cpp
+  mycoin.cpp
+  mypushbutton.cpp
+  playscene.cpp
+  qrc_res.cpp
+  moc_chooselevelscene.cpp
+  moc_dataconfig.cpp
+  moc_mainscence.cpp
+  moc_mycoin.cpp
+  moc_mypushbutton.cpp
+  moc_playscene.cpp
+  CoinFlip.vcxproj -> C:\Users\Administrator\Documents\GitHub\Cpp_QT\CoinFlip\debug\CoinFlip.exe
