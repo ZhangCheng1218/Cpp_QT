@@ -26,8 +26,8 @@
   <widget class="QPushButton" name="btn_set">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>150</y>
+     <x>60</x>
+     <y>100</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -39,8 +39,8 @@
   <widget class="QPushButton" name="btn_get">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>150</y>
+     <x>310</x>
+     <y>100</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -53,9 +53,9 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>220</y>
-     <width>331</width>
-     <height>81</height>
+     <y>140</y>
+     <width>411</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -63,6 +63,79 @@
    </property>
    <property name="text">
     <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblTimer">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>200</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Panel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblTimer_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>270</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblTimer_3">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>330</y>
+     <width>411</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_stop">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>380</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>STOP</string>
    </property>
   </widget>
  </widget>
